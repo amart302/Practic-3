@@ -1,0 +1,199 @@
+#contein1{
+    margin-left: 20px;
+}
+#contein2{
+    margin-left: 20px;
+}
+#podContein{
+    display: flex;
+    cursor: pointer;
+    width: 225px;
+}
+#podContein2{
+    display: flex;
+    cursor: pointer;
+    width: 225px;
+}
+#books{
+    width: 200px;
+    background-color: rgb(140, 18, 5);
+    color: white;
+    margin-bottom: 6px;
+}
+#podBooks{
+    padding: 10px;
+    width: 160px;
+    background-color: rgb(199, 4, 4);
+    margin-left: 14px;
+}
+#dvd{
+    width: 200px;
+    background-color: rgb(140, 18, 5);
+    color: white;
+}
+#podDvd{
+    padding: 10px;
+    width: 160px;
+    background-color: rgb(199, 4, 4);
+    margin-left: 14px;
+}
+#ourBlock{
+    margin-left: 46px;
+    width: 224px;
+    display: none;
+    cursor: pointer;
+}
+#ourBlock2{
+    margin-left: 46px;
+    width: 224px;
+    display: none;
+    margin-top: 6px;
+    cursor: pointer;
+}
+#our{
+    width: 200px;
+    background-color: rgb(140, 18, 5);
+    color: white;
+    margin-bottom: 6px;
+}
+#podOur{
+    padding: 10px;
+    width: 160px;
+    background-color: rgb(199, 4, 4);
+    margin-left: 14px;
+}
+#forenBlock{
+    margin-left: 46px;
+    display: none;
+    cursor: pointer;
+    width: 224px;
+}
+#forenBlock2{
+    margin-left: 46px;
+    display: none;
+    cursor: pointer;
+    width: 224px;
+}
+#foren{
+    width: 200px;
+    background-color: rgb(140, 18, 5);
+    color: white;
+    margin-bottom: 6px;
+}
+#podForen{
+    padding: 10px;
+    width: 160px;
+    background-color: rgb(199, 4, 4);
+    margin-left: 14px;
+}
+
+
+#detectivesBlock{
+    display: none;
+}
+#detectives{
+    width: 200px;
+    background-color: rgb(140, 18, 5);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 6px;
+    margin-left: 90px;
+}
+#podDetectives{
+    padding: 10px;
+    width: 160px;
+    background-color: rgb(199, 4, 4);
+    margin-left: 14px;
+}
+#scienFictBlock{
+    display: none;
+}
+#scienFict{
+    width: 200px;
+    background-color: rgb(140, 18, 5);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 6px;
+    margin-left: 90px;
+}
+#podScienFict{
+    padding: 10px;
+    width: 160px;
+    background-color: rgb(199, 4, 4);
+    margin-left: 14px;
+}
+#historicBlock{
+    display: none;
+}
+#historic{
+    width: 200px;
+    background-color: rgb(140, 18, 5);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 6px;
+    margin-left: 90px;
+}
+#podHistoric{
+    padding: 10px;
+    width: 160px;
+    background-color: rgb(199, 4, 4);
+    margin-left: 14px;
+}
+
+li{
+    position: relative;
+    top: 8px;
+    left: 96px;
+}
+
+#detectivesBlock2{
+    display: none;
+}
+#detectives2{
+    width: 200px;
+    background-color: rgb(140, 18, 5);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 6px;
+    margin-left: 90px;
+}
+#podDetectives2{
+    padding: 10px;
+    width: 160px;
+    background-color: rgb(199, 4, 4);
+    margin-left: 14px;
+}
+#scienFictBlock2{
+    display: none;
+}
+#scienFict2{
+    width: 200px;
+    background-color: rgb(140, 18, 5);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 6px;
+    margin-left: 90px;
+}
+#podScienFict2{
+    padding: 10px;
+    width: 160px;
+    background-color: rgb(199, 4, 4);
+    margin-left: 14px;
+}
+#historicBlock2{
+    display: none;
+}
+#historic2{
+    width: 200px;
+    background-color: rgb(140, 18, 5);
+    color: white;
+    cursor: pointer;
+    margin-bottom: 6px;
+    margin-left: 90px;
+}
+#podHistoric2{
+    padding: 10px;
+    width: 160px;
+    background-color: rgb(199, 4, 4);
+    margin-left: 14px;
+}
