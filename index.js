@@ -1,101 +1,90 @@
 let booksBtn = document.getElementById('podContein');
-let dvd = document.getElementById('podContein2');
-let check = true;
-booksBtn.addEventListener('click',() => {
-    let domestic = document.getElementById('ourBlock');
-    let foreign = document.getElementById('forenBlock');
-    let detectives = document.getElementById('detectivesBlock');
-    let fiction = document.getElementById('scienFictBlock');
-    let hictory = document.getElementById('historicBlock');
-    let pl = document.getElementById('plus1');
-    let pl3 = document.getElementById('plus3');
-    if(check == true){
-        pl.src = './img/bx-minus.svg'
-        pl3.src = './img/bx-plus.svg'
-        domestic.style.display = 'flex'
-        foreign.style.display = 'flex'
-        check = false;
-        
-    }else if(check == false){
-        pl.src = './img/bx-plus.svg'
-        pl3.src = './img/bx-minus.svg'
-        domestic.style.display = 'none'
-        foreign.style.display = 'none'
-        detectives.style.display = 'none';
-        fiction.style.display = 'none';
-        hictory.style.display = 'none';
-        check = true;
-        check3 = true;
+let dvdBtn = document.getElementById('podContein2');
+
+let check1 = false;
+let ourBlock = document.getElementById('ourBlock');
+let forenBlock = document.getElementById('forenBlock');
+let plus1 = document.getElementById('plus1');
+booksBtn.addEventListener('click', () => {
+    if(check1 == false){
+        plus1.src = './img/bx-minus.svg';
+        ourBlock.style.display = 'flex';
+        forenBlock.style.display = 'flex';
+        check1 = true;
+    }else{
+        plus1.src = './img/bx-plus.svg';
+        ourBlock.style.display = 'none';
+        forenBlock.style.display = 'none';
+        plus3.src = './img/bx-plus.svg';
+        detectivesBlock.style.display = 'none';
+        scienFictBlock.style.display = 'none';
+        historicBlock.style.display = 'none';
+        check3 = false;
+        check1 = false;
     }
 });
-let check2 = true;
-dvd.addEventListener('click', () => {
-    let domestic = document.getElementById('ourBlock2');
-    let foreign = document.getElementById('forenBlock2');
-    let pl2 = document.getElementById('plus4');
-    let detectives = document.getElementById('detectivesBlock2');
-    let fiction = document.getElementById('scienFictBlock2');
-    let hictory = document.getElementById('historicBlock2');
-    let pl5 = document.getElementById('plus5');
-    if(check2 == true){
-        pl2.src = './img/bx-minus.svg';
-        pl5.src = './img/bx-plus.svg'
-        domestic.style.display = 'flex'
-        foreign.style.display = 'flex'
-        check2 = false;
-    }else if(check2 == false){
-        pl2.src = './img/bx-plus.svg';
-        pl5.src = './img/bx-minus.svg'
-        domestic.style.display = 'none'
-        foreign.style.display = 'none'
-        detectives.style.display = 'none';
-        fiction.style.display = 'none';
-        hictory.style.display = 'none';
+
+let check2 = false;
+let ourBlock2 = document.getElementById('ourBlock2');
+let forenBlock2 = document.getElementById('forenBlock2');
+let plus4 = document.getElementById('plus4');
+dvdBtn.addEventListener('click', () => {
+    if(check2 == false){
+        plus4.src = './img/bx-minus.svg';
+        ourBlock2.style.display = 'flex';
+        forenBlock2.style.display = 'flex';
         check2 = true;
+    }else{
+        plus5.src = './img/bx-plus.svg';
+        detectivesBlock2.style.display = 'none';
+        scienFictBlock2.style.display = 'none';
+        historicBlock2.style.display = 'none';
+        check4 = false;
+        plus4.src = './img/bx-plus.svg';
+        ourBlock2.style.display = 'none';
+        forenBlock2.style.display = 'none';
+        check2 = false;
+    }
+});
+
+let check3 = false;
+let detectivesBlock = document.getElementById('detectivesBlock');
+let scienFictBlock = document.getElementById('scienFictBlock');
+let historicBlock = document.getElementById('historicBlock');
+let plus3 = document.getElementById('plus3');
+forenBlock.addEventListener('click', () => {
+    if(check3 == false){
+        plus3.src = './img/bx-minus.svg';
+        detectivesBlock.style.display = 'flex';
+        scienFictBlock.style.display = 'flex';
+        historicBlock.style.display = 'flex';
         check3 = true;
+    }else{
+        plus3.src = './img/bx-plus.svg';
+        detectivesBlock.style.display = 'none';
+        scienFictBlock.style.display = 'none';
+        historicBlock.style.display = 'none';
+        check3 = false;
     }
 })
 
-let check3 = true;
-let foreign1 = document.getElementById('forenBlock');
-foreign1.addEventListener('click', () => {
-    let detectives = document.getElementById('detectivesBlock');
-    let fiction = document.getElementById('scienFictBlock');
-    let hictory = document.getElementById('historicBlock');
-    let pl3 = document.getElementById('plus3');
-    if(check3 == true){
-        pl3.src = './img/bx-minus.svg';
-        detectives.style.display = 'flex';
-        fiction.style.display = 'flex';
-        hictory.style.display = 'flex';
-        check3 = false;
+let check4 = false;
+let detectivesBlock2 = document.getElementById('detectivesBlock2');
+let scienFictBlock2 = document.getElementById('scienFictBlock2');
+let historicBlock2 = document.getElementById('historicBlock2');
+let plus5 = document.getElementById('plus5');
+ourBlock2.addEventListener('click', () => {
+    if(check4 == false){
+        plus5.src = './img/bx-minus.svg';
+        detectivesBlock2.style.display = 'flex';
+        scienFictBlock2.style.display = 'flex';
+        historicBlock2.style.display = 'flex';
+        check4 = true;
     }else{
-        pl3.src = './img/bx-plus.svg';
-        detectives.style.display = 'none';
-        fiction.style.display = 'none';
-        hictory.style.display = 'none';
-        check3 = true
-    }
-})
-
-let check4 = true;
-let our2 = document.getElementById('ourBlock2');
-our2.addEventListener('click', () => {
-    let detectives = document.getElementById('detectivesBlock2');
-    let fiction = document.getElementById('scienFictBlock2');
-    let hictory = document.getElementById('historicBlock2');
-    let pl5 = document.getElementById('plus5');
-    if(check3 == true){
-        pl5.src = './img/bx-minus.svg';
-        detectives.style.display = 'flex';
-        fiction.style.display = 'flex';
-        hictory.style.display = 'flex';
-        check3 = false;
-    }else{
-        pl5.src = './img/bx-plus.svg';
-        detectives.style.display = 'none';
-        fiction.style.display = 'none';
-        hictory.style.display = 'none';
-        check3 = true
+        plus5.src = './img/bx-plus.svg';
+        detectivesBlock2.style.display = 'none';
+        scienFictBlock2.style.display = 'none';
+        historicBlock2.style.display = 'none';
+        check4 = false;
     }
 })
